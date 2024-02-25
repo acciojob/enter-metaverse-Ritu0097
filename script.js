@@ -1,4 +1,5 @@
 let clicknew = document.getElementById('status');
-clicknew.addEventListener('click', () => {
+let btn = document.getElementById('enterBtn');
+btn.addEventListener('click', () => {
     clicknew.innerHTML = '<h1>Entered Metaverse</h1>';
 });
